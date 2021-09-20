@@ -1,4 +1,114 @@
 .footer{
-  margin-left : 80px;
+  margin-left : 0px;
   font-size : 18px;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: flex-end;
+}
+
+#spiderman{
+  
+  border-style:solid;
+  border-color: gray;
+  padding-top: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 150px;
+  height:250px;
+  margin-left: 200px;
+  text-align: center;
+  font-size: large;
+  line-height: 0.1;
+  
+}
+.word2,.word3,.word6{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#score{
+  margin-top: 5px;
+  background-color: white;
+  width: 150px;
+  height:250px;
+  margin-left: 160px;
+  font-size: xx-large;
+}
+
+#wonderwoman{
+  
+  border-style:solid;
+  border-color: gray;
+  padding-top: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 150px;
+  height:250px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: large;
+  line-height: 0.1;
+  
+}
+#captain{
+  
+  border-style:solid;
+  border-color: gray;
+  padding-top: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 150px;
+  height:250px;
+  margin-left: 200px;
+  text-align: center;
+  font-size: large;
+  line-height: 0.1;
+  
+}
+
+#gem{
+   
+  border-style:solid;
+  border-color: gray;
+  padding-top: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 150px;
+  height:250px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: large;
+  line-height: 0.1;
+  
+}
+.grid{
+  background-color: white;
+  display: grid;
+  grid-template-rows:auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: none;
+  
+}
+
+.container{
+  background: rgb(167, 111, 111);
+  border-radius: 10px;
+  width: 700px;
+  height: 100px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-rows: 30px 30px 40px 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: none;
+}
+
+.container2{
+  background: green;
+  border-radius: 10px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-rows: 30px 30px 40px 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: none;
+  
 }
